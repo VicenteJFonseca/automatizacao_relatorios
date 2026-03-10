@@ -57,10 +57,10 @@ Planillhas Excel que constam no dataset_biocen:<br>
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, CPF, etc. <br>
 •	precos - tabela de preços que varia por idade (em semanas) e espécie (rato ou camundongo). <br>
 ### COMO FUNCIONA
-- Etapa I: Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc. <br>
-- Etapa II:Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados.  O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas. <br>
-- Etapa III: Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe. <br>
-- Etapa IV: As consultas salvas em Pandas Dataframe são exportadas em um único arquivo Excel em planilhas separadas. <br>
+- Etapa I: <br> Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc. <br>
+- Etapa II: <br> Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados. O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas. <br>
+- Etapa III: <br> Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe. <br>
+- Etapa IV: <br> As consultas salvas em Pandas Dataframe são exportadas em um único arquivo Excel em planilhas separadas. <br>
 ### RESULTADO
 Foi possível com essa automatização reduzir em 83% o tempo de entrega dos relatórios à coordenação do BIOCEN.
  
