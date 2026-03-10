@@ -1,5 +1,5 @@
 
-# O PROJETO DE DADOS
+### O PROJETO DE DADOS
 O presente projeto se trata da automatização de relatórios de dados de demanda e venda de animais do BIOCEN mais demandados pela direção/coordenação. São 17 (dezessete) relatórios ao todo gerados e que estão enumerados a seguir: 
 
 1.	Saldo CEUA
@@ -36,19 +36,19 @@ O presente projeto se trata da automatização de relatórios de dados de demand
 
 17.	Instituições Externas (Período: 2024-2025)
 
-# TECNOLOGIAS USADAS
+### TECNOLOGIAS USADAS
 
 •	Python 
 •	SQL 
 •	Excel
 
-# OBJETIVO
+### OBJETIVO
 Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BIOCEN das informações necessárias para tomada de decisões e aplicação de projetos tanto para a própria Universidade quanto às instituições de fomento, tais como FAPEMIG E FINEP, com o intuito de obter recursos para investimentos e melhorias na infraestrutura.
 
-# DEFINIÇÕES
-<u> BIOCEN </u>: O Biotério Central da UFMG é um laboratório de biomodelos que são animais voltados para experimentação científica. Esses animais são disponibilizados a preços subsidiados a pesquisadores tanto da UFMG quanto para instituições externas, como por exemplo, a USP e a UFRJ. O BIOCEN produz animais SPF (Specific Pathogen Free), ou seja, livre de patógenos. Além disso, são animais com alta padronização genética. Essa alta qualidade é importante para não causar vieses nas pesquisas científicas; dentre elas, o desenvolvimento da vacina contra a dependência de cocaína e crack empreendida por pesquisadores da UFMG e que utilizaram animais do BIOCEN. A vacina contra o crack/cocaína já está na fase de testes em voluntários. 
-<u>Linhagens</u): animais geneticamente padronizados. Podem ser homogênicos (clones) ou heterogênicos (diferentes geneticamente entre si). As linhagens produzidas no BIOCEN são: Balb, C57 e CD1 (camundongos) e Wistar (rato).
-<u>CEUA</u>: Comissão de Ética de Uso Animal para Experimentação. Pesquisadores só podem usar animais em pesquisas se tiverem autorização comprovada por esse documento. O CEUA especifica quanto animais podem ser utilizados e qual espécie, linhagem e sexo dos animais devem ser utilizados na pesquisa. Os pesquisadores podem retirar parcialmente os animais do BIOCEN. Daí a importância do controle do quantitativo que é um dos relatórios gerados por esse projeto.
+### DEFINIÇÕES
+- BIOCEN: O Biotério Central da UFMG é um laboratório de biomodelos que são animais voltados para experimentação científica. Esses animais são disponibilizados a preços subsidiados a pesquisadores tanto da UFMG quanto para instituições externas, como por exemplo, a USP e a UFRJ. O BIOCEN produz animais SPF (Specific Pathogen Free), ou seja, livre de patógenos. Além disso, são animais com alta padronização genética. Essa alta qualidade é importante para não causar vieses nas pesquisas científicas; dentre elas, o desenvolvimento da vacina contra a dependência de cocaína e crack empreendida por pesquisadores da UFMG e que utilizaram animais do BIOCEN. A vacina contra o crack/cocaína já está na fase de testes em voluntários. 
+- Linhagens: animais geneticamente padronizados. Podem ser homogênicos (clones) ou heterogênicos (diferentes geneticamente entre si). As linhagens produzidas no BIOCEN são: Balb, C57 e CD1 (camundongos) e Wistar (rato).
+- CEUA: Comissão de Ética de Uso Animal para Experimentação. Pesquisadores só podem usar animais em pesquisas se tiverem autorização comprovada por esse documento. O CEUA especifica quanto animais podem ser utilizados e qual espécie, linhagem e sexo dos animais devem ser utilizados na pesquisa. Os pesquisadores podem retirar parcialmente os animais do BIOCEN. Daí a importância do controle do quantitativo que é um dos relatórios gerados por esse projeto.
 # COMO FUNCIONA
 **OBSERVAÇÃO:** No presente projeto, os dados sencíveis foram anonimizados e os demais dados foram autorizados pela coordenação do BIOCEN para que eu pudesse colocá-los em um repositório no GitHub; conforme Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018).
 Planillhas Excel que constam no dataset_biocen:
@@ -56,10 +56,10 @@ Planillhas Excel que constam no dataset_biocen:
 •	ceua - certificado de autorização para pesquisa com animais que cada pesquisador solicitante deve ter especificando: espécie, linhagem, sexo e quantidade.
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, CPF, etc.
 •	precos - tabela de preços que varia por idade (em semanas) e espécie (rato ou camundongo).
-<u>Etapa I:</u> Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc.
-<u>Etapa II:</u> Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados.  O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas.
-<u>Etapa III:</u> Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe.
-<u>Etapa IV:</u> As consultas salvas em Pandas Dataframe são exportadas em um único arquivo Excel em planilhas separadas.
-# RESULTADO
+##### Etapa I: Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc.
+##### Etapa II:Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados.  O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas.
+##### Etapa III: Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe.
+#####Etapa IV: As consultas salvas em Pandas Dataframe são exportadas em um único arquivo Excel em planilhas separadas.
+#### RESULTADO
 Foi possível com essa automatização reduzir em 83% o tempo de entrega dos relatórios à coordenação do BIOCEN.
  
