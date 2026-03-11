@@ -58,7 +58,6 @@ Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BI
 •	precos - tabela de preços que varia por idade (em semanas), espécie (rato ou camundongo) e o tipo de venda (interna ou externa). <br>
 ### COMO FUNCIONA
 **Fluxo de Dados:** Excel (Entrada) -> Python (Tratamento/Anonimização) -> Python/SQL (Queries-DQL/Dataframe) -> Excel (Saída) <br>
-**Etapas:**
 - Etapa I: <br> Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc. <br>
 - Etapa II: <br> Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados. O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas. <br>
 - Etapa III: <br> Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe. <br>
