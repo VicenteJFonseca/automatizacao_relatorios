@@ -55,7 +55,7 @@ Planillhas Excel que constam no dataset_biocen:<br>
 •	pedidos - dados dos pedidos dos pesquisadores com informações relevantes dos animais (idade, linhagem, sexo, espécie, quantidade, etc.) <br>
 •	ceua - certificado de autorização para pesquisa com animais que cada pesquisador solicitante deve ter especificando: espécie, linhagem, sexo e quantidade. <br>
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, CPF, etc. <br>
-•	precos - tabela de preços que varia por idade (em semanas) e espécie (rato ou camundongo). <br>
+•	precos - tabela de preços que varia por idade (em semanas), espécie (rato ou camundongo) é tipo de venda (interna ou externa). <br>
 ### COMO FUNCIONA
 **Fluxo de Dados:** Excel (Entrada) -> Python (Tratamento/Anonimização) -> Python/SQL (Queries-DQL/Dataframe) -> Excel (Saída) <br>
 - Etapa I: <br> Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc. <br>
