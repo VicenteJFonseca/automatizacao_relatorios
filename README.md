@@ -50,14 +50,15 @@ Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BI
 - Linhagens: animais geneticamente padronizados. Podem ser homogênicos (clones) ou heterogênicos (geneticamente diferentes). As linhagens produzidas no BIOCEN são: Balb, C57 e CD1 (camundongos) e Wistar (rato). <br>
 - CEUA: Comissão de Ética de Uso Animal para Experimentação. Pesquisadores só podem usar animais em pesquisas se tiverem autorização comprovada por esse documento. O CEUA especifica quantos animais podem ser utilizados e qual espécie, linhagem e sexo dos animais devem ser utilizados na pesquisa. Além disso, os pesquisadores podem retirar parcialmente os animais do BIOCEN. Daí a importância do controle do quantitativo que é um dos relatórios gerados na presente automatização visto que são, em média, mais de 300 (trezentos) projetos cadastrados.
 ### BASE DE DADOS
-**OBSERVAÇÃO:** No presente projeto, os dados sensíveis foram anonimizados e os demais dados foram autorizados pela coordenação do BIOCEN para que eu pudesse colocá-los em um repositório no GitHub; conforme Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018). <br>
-Planillhas Excel que constam no dataset_biocen:<br>
+**OBSERVAÇÃO:** No presente projeto, os dados sensíveis foram anonimizados e os demais dados foram autorizados pela coordenação do BIOCEN para que eu pudesse colocá-los neste repositório do GitHub; conforme Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018). <br>
+**Dados:** Arquivo Excel denominada 'dataset_biocen' onde constam as seguintes planilhas: <br>
 •	pedidos - dados dos pedidos dos pesquisadores com informações relevantes dos animais (idade, linhagem, sexo, espécie, quantidade, etc.) <br>
 •	ceua - certificado de autorização para pesquisa com animais que cada pesquisador solicitante deve ter especificando: espécie, linhagem, sexo e quantidade. <br>
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, CPF, etc. <br>
 •	precos - tabela de preços que varia por idade (em semanas), espécie (rato ou camundongo) e o tipo de venda (interna ou externa). <br>
 ### COMO FUNCIONA
 **Fluxo de Dados:** Excel (Entrada) -> Python (Tratamento/Anonimização) -> Python/SQL (Queries-DQL/Dataframe) -> Excel (Saída) <br>
+**Etapas:**
 - Etapa I: <br> Tratamento dos Dados - Utilizando Python, foi realizado a limpeza dos dados, tais como: padronização na nomenclatura de categorias, eliminação de espaços vazios e dados do tipo string, remoção de características (variáveis) irrelevantes para o presente projeto, etc. <br>
 - Etapa II: <br> Anonimização dos Dados Sensíveis - Colunas com os dados dos pesquisadores e informações dos certificados CEUA foram anonimizados. O certificado CEUA é importante anonimizar para não provocar a quebra de patentes das pesquisas. <br>
 - Etapa III: <br> Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe. <br>
