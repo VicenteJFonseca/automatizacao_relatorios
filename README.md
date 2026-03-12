@@ -51,7 +51,7 @@ Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BI
 - CEUA: Comissão de Ética de Uso Animal para Experimentação. Pesquisadores só podem usar animais em pesquisas se tiverem autorização comprovada por esse documento. O CEUA especifica quantos animais podem ser utilizados e qual espécie, linhagem e sexo dos animais devem ser utilizados na pesquisa. Além disso, os pesquisadores podem retirar parcialmente os animais do BIOCEN. Daí a importância do controle do quantitativo que é um dos relatórios gerados na presente automatização visto que são, em média, mais de 300 (trezentos) projetos cadastrados.
 ### BASE DE DADOS
 **OBSERVAÇÃO:** No presente projeto, os dados sensíveis foram anonimizados e os demais dados foram autorizados pela coordenação do BIOCEN para que eu pudesse colocá-los neste repositório do GitHub; conforme Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018). <br>
-**Dados:** Arquivo Excel denominada 'dataset_biocen' onde constam as seguintes planilhas: <br>
+**Dados:** Arquivo Excel 'dataset_biocen_anonimizado.xlsx' onde constam as seguintes planilhas: <br>
 •	pedidos - dados dos pedidos dos pesquisadores com informações relevantes dos animais (idade, linhagem, sexo, espécie, quantidade, etc.) <br>
 •	ceua - certificado de autorização para pesquisa com animais que cada pesquisador solicitante deve ter especificando: espécie, linhagem, sexo e quantidade. <br>
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, CPF, etc. <br>
