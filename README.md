@@ -52,7 +52,7 @@ Esta automatização de relatórios foi desenvolvida para munir, de forma ágil,
 ### BASE DE DADOS
 **OBSERVAÇÃO:** No presente projeto, os dados sensíveis foram anonimizados e os demais dados foram autorizados pela coordenação do BIOCEN para que eu pudesse colocá-los neste repositório do GitHub; conforme Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018). <br>
 **Dados:** Arquivo Excel 'dataset_biocen_anonimizado.xlsx' onde constam as seguintes planilhas: <br>
-•	pedidos - dados dos pedidos dos pesquisadores com informações relevantes dos animais (idade, linhagem, sexo, espécie, quantidade, etc.). Dados pessoais de pesquisadores e alunos foram anonimizados conforme Lei nº 13.709 (2018).  <br>
+•	pedidos - dados dos pedidos dos pesquisadores com informações relevantes dos animais (idade, linhagem, sexo, espécie, quantidade, etc.). Observação: os dados pessoais de pesquisadores e alunos foram anonimizados conforme Lei nº 13.709 (2018).  <br>
 •	ceua - certificado de autorização para pesquisa com animais que cada pesquisador solicitante deve ter especificando: espécie, linhagem, sexo e quantidade. Observação: Nome do pesquidor e identificação dos projetos CEUA foram anonimizados para evitar quebra de patentes, conforme Lei nº 13.709 (2018)  <br>
 •	pesquisadores - dados dos pesquisadores com informações sobre a unidade (faculdade), departamento, etc. Observação: dados pessoais foram anonimizados conforme Lei nº 13.709 (2018). <br>
 •	precos - tabela de preços que varia por idade (em semanas), espécie (rato ou camundongo) e o tipo de venda (interna ou externa). <br>
