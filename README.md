@@ -43,7 +43,7 @@ O presente projeto se trata da automatização de relatórios de dados de demand
 •	Excel
 
 ### OBJETIVO
-Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BIOCEN das informações necessárias para a tomada de decisões e aplicação de estratégias internas no âmbito da Universidade com o intuito de obter recursos para investimentos e melhorias na infraestrutura.
+Este relatório foi desenvolvido para munir, de forma ágil, o coordenador do BIOCEN das informações necessárias para a tomada de decisões e desenvolvimento de estratégias internas no âmbito da Universidade com o intuito de obter recursos para investimentos e melhorias na infraestrutura.
 
 ### DEFINIÇÕES
 - BIOCEN: O Biotério Central da UFMG é um laboratório de biomodelos que são animais voltados para experimentação científica. Esses animais são disponibilizados a preços subsidiados a pesquisadores tanto da UFMG quanto de instituições externas, como por exemplo, a USP e a UFRJ. O BIOCEN produz ratos e camundongos SPF (Specific Pathogen Free), ou seja, livre de patógenos específicos. Além disso, são animais com alta padronização genética. Essa alta qualidade é importante para não causar vieses nas pesquisas científicas; dentre elas, o desenvolvimento da vacina contra a dependência de cocaína e crack empreendida por pesquisadores da UFMG e que utilizaram animais do BIOCEN. Atualmente, a vacina contra o crack/cocaína já está na fase de testes em voluntários. <br>
