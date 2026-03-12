@@ -63,5 +63,5 @@ Esta automatização de relatórios foi desenvolvida para munir, de forma ágil,
 - Etapa III: <br> Combinação de Python e SQL através das bibliotecas PandaSQL e da ferramenta SQLAlchemy a fim de fazer o carregamento da base de dados e realizar consultas na linguagem SQL. As consultas foram salvas como Pandas Dataframe. <br>
 - Etapa IV: <br> As consultas salvas em Pandas Dataframe são exportadas em um único arquivo Excel em planilhas separadas. <br>
 ### RESULTADO
-A automatização de relatórios apresentada neste presente projeto propiciou a **redução em 83% o tempo de entrega** de submetimento à coordenação do BIOCEN.
+A implementação da automatização de relatórios propiciou a **redução em 83% o tempo de entrega** de entrega à coordenação do BIOCEN.
  
